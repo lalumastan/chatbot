@@ -20,7 +20,7 @@ E((Create<br/>Free Account<br/>on 'Vercel')) --> C
 F((Checkout<br/>'chatbot'<br/>code from Git)) --> C
 C --> G[Compile & Build & Run<br/>npm install<br/>npm run dev]
 G -- Test with<br/>InternetBrowser --> H{http://localhost:3000}
-G -- Deploy and<br/>Test with<br/>Internet Browser --> I{Vercel<br/>https://chatbot.vercel.app/}
+G -- Deploy and<br/>Test with<br/>Internet Browser --> I{Vercel<br/>https://chatbot-three-chi.vercel.app}
 ```
 </details>
 
@@ -43,7 +43,7 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### References
 <ul>
-<li><a  href="https://chatbot.vercel.app/">Live Demo</a></li>
+<li><a  href="https://chatbot-three-chi.vercel.app">Live Demo</a></li>
 <li><a  href="https://nextjs.org/learn">Interactive Next.js tutorial</a></li>
 <li><a  href="https://nextjs.org/docs">Next.js Documentation</a></li>
 <li><a  href="https://reactjs.org/">React</a></li>
@@ -55,4 +55,4 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### Tutorial
 
-<a  href="http://www.youtube.com/watch?feature=player_embedded&v=4VXajxGMsmY"  target="_blank"><img  src="http://img.youtube.com/vi/4VXajxGMsmY/0.jpg"  alt="How to Create & Deploy OpenAI Chatbot on the Web like ChatGPT using Next JS" width="240"  height="180"  border="10"  /></a>
+<a  href="http://www.youtube.com/watch?feature=player_embedded&v=8DKcwd8DWHg"  target="_blank"><img  src="http://img.youtube.com/vi/8DKcwd8DWHg/0.jpg"  alt="How to Create & Deploy OpenAI Chatbot on the Web like ChatGPT using Next JS" width="240"  height="180"  border="10"  /></a>
