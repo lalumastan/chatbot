@@ -58,7 +58,7 @@ export default function Home() {
       {
         result && (
           <div className="row">
-            <div className="my-3 border border-info rounded">
+            <div className="my-3 border border-info rounded overflow-auto">
               {result && currentChat && (
                 <code className="text-justify d-flex flex-lg-wrap" style={{ whiteSpace: "pre" }}><strong className="small">{currentChat.replace(STARTER, "").trim()}</strong></code>
               )}
