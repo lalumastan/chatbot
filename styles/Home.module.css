@@ -1,0 +1,14 @@
+.form-ai {
+  max-width: 330px;
+  padding: 5em;
+}
+
+.form-ai .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-ai input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
