@@ -20,7 +20,7 @@ E((Create<br/>Free Account<br/>on 'Vercel')) --> C
 F((Checkout<br/>'chatbot'<br/>code from Git)) --> C
 C --> G[Compile & Build & Run<br/>npm install<br/>npm run dev]
 G -- Test with<br/>InternetBrowser --> H{http://localhost:3000}
-G -- Deploy and<br/>Test with<br/>Internet Browser --> I{Vercel<br/>https://chatbot-three-chi.vercel.app}
+G -- Deploy and<br/>Test with<br/>Internet Browser --> I{Vercel<br/>https://chatbot-icsdiscover.vercel.app}
 ```
 </details>
 
@@ -44,7 +44,7 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### References
 <ul>
 <li><a  href="https://aiweb-icsdiscover.vercel.app/">Advanced Application Demo</a></li>
-<li><a  href="https://chatbot-three-chi.vercel.app">Live Demo</a></li>
+<li><a  href="https://chatbot-icsdiscover.vercel.app">Live Demo</a></li>
 <li><a  href="https://nextjs.org/learn">Interactive Next.js tutorial</a></li>
 <li><a  href="https://nextjs.org/docs">Next.js Documentation</a></li>
 <li><a  href="https://reactjs.org/">React</a></li>

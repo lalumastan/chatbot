@@ -1,6 +1,6 @@
 import { Configuration, OpenAIApi } from 'openai';
 
-const MODEL = "text-davinci-003";
+const MODEL = "gpt-3.5-turbo";
 
 export default async function handler(req, res) {
 
@@ -10,19 +10,13 @@ export default async function handler(req, res) {
   const openai = new OpenAIApi(configuration);
 
   try {
-    const completion = await openai.createCompletion({
+    const completion = await openai.createChatCompletion({
+      messages: [{ role: "user", content: req.body.prompt }],
       model: MODEL,
-      prompt: req.body.prompt,
-      temperature: 0,
-      max_tokens: 100,
-      top_p: 1,
-      frequency_penalty: 0,
-      presence_penalty: 0,
-      stop: ["\n"],
     });
 
     //console.log(completion.data);
-    res.status(201).json({ currentChat: req.body.prompt + completion.data.choices[0].text });
+    res.status(201).json({ currentChat: req.body.prompt + completion.data.choices[0].message.content });
   } catch (error) {
     let errorMessage = "Failed: ";
     if (error.response) {
