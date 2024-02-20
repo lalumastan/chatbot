@@ -1,22 +1,21 @@
-import { Configuration, OpenAIApi } from 'openai';
+import OpenAI from 'openai';
 
 const MODEL = "gpt-3.5-turbo";
 
 export default async function handler(req, res) {
 
-  const configuration = new Configuration({
-    apiKey: process.env.OPENAI_DEMO_API_KEY,
-  });
-  const openai = new OpenAIApi(configuration);
-
   try {
-    const completion = await openai.createChatCompletion({
+    const openai = new OpenAI({
+      apiKey: process.env.OPENAI_DEMO_API_KEY // This is the default and can be omitted
+    });
+
+    const completion = await openai.chat.completions.create({
       messages: [{ role: "user", content: req.body.prompt }],
-      model: MODEL,
+      model: MODEL
     });
 
     //console.log(completion.data);
-    res.status(201).json({ currentChat: req.body.prompt + completion.data.choices[0].message.content });
+    res.status(201).json({ currentChat: req.body.prompt + completion.choices[0].message.content });
   } catch (error) {
     let errorMessage = "Failed: ";
     if (error.response) {
