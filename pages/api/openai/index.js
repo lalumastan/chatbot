@@ -1,6 +1,6 @@
 import OpenAI from 'openai';
 
-const MODEL = "gpt-3.5-turbo";
+const MODEL = "gpt-3.5-turbo-16k";
 
 export default async function handler(req, res) {
 
