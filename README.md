@@ -43,7 +43,7 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### References
 <ul>
-<li><a  href="https://aiweb-icsdiscover.vercel.app/">Advanced Application Demo</a></li>
+<li><a  href="https://aiweb-plum.vercel.app/">Advanced Application Demo</a></li>
 <li><a  href="https://chatbot-icsdiscover.vercel.app">Live Demo</a></li>
 <li><a  href="https://nextjs.org/learn">Interactive Next.js tutorial</a></li>
 <li><a  href="https://nextjs.org/docs">Next.js Documentation</a></li>
