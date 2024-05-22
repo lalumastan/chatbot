@@ -43,7 +43,7 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### References
 <ul>
-<li><a  href="https://icsdiscover.great-site.net/?site=aw" target="new">Advanced Application Demo</a></li>
+<li><a  href="https://icsdiscover.great-site.net/?site=aw" target="_new">Advanced Application Demo</a></li>
 <li><a  href="https://icsdiscover.great-site.net/?site=cb" target="_new">Live Demo</a></li>
 <li><a  href="https://nextjs.org/learn" target="_new">Interactive Next.js tutorial</a></li>
 <li><a  href="https://nextjs.org/docs" target="_new">Next.js Documentation</a></li>
